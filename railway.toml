@@ -1,0 +1,9 @@
+# railway.toml
+
+[deploy]
+  schedule = "0 */4 * * 1-5"  # Runs every 4 hours, Monday through Friday
+
+[env]
+  MONDAY_API_KEY = "your_monday_api_key_here"
+  SENDGRID_API_KEY = "your_sendgrid_api_key_here"
+  BOARD_ID = "your_board_id_here"
